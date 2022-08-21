@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="/css/style.css">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p><i class="fa fa-spinner w3-spin" style="font-size:40px"></i></p>
+                    </div>
+                    <div class="col">
+                        <h1>Music Player</h1>
+                    </div>  
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- <div class="container-box">
+         <img class="w3-animate-fading" src="" alt="" style="height:60px;">
+    </div> -->
+    <div class="main">
+        <div class="music-container">
+            <h2 id="songName">Song Name</h2>
+            <h3 id="artistName">Artist Name</h3>
+            
+            <div class="img-container">
+                <img  src="./img/song1.jpg" alt="" class="rotateAnime">
+            </div>
+            
+            <audio  src="./music/song1.mp3" id="audio"></audio>
+
+            <div class="control-buttons">
+                <button class="back" id="prev"><i class="material-icons">arrow_back</i></button>
+                <button class="paly" id="play"><i class="material-icons">power_settings_new</i></button>
+                <button class="next" id="next"> <i class="material-icons">arrow_forward</i></button>
+
+            </div>
+        </div>
+    </div>
+    <div class="w3-container w3-center w3-animate-bottom">
+        <h3 style="color: green;">www.alphamusic.com</h3>
+    </div>
+</body>
+<script src="./music.js"></script>
+</html>
