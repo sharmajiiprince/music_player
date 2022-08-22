@@ -3,20 +3,27 @@
     margin: 0.5;
     padding: 0;
 }
+body{
+    /* background: linear-gradient(to right,#043050 50%, #ff9100 50%); */
+    background: linear-gradient(-160.5deg,#3b4d65 50%,#a97839 50%);
+}
 .container-box{
     margin-top: 20px;
 }
 .container{
     background-color: blanchedalmond;
 }
-.row{
- display: -webkit-inline-flex;
+ a h3{
+    color: rgb(82, 52, 12);
+} 
+/* .row{
+ display: -webkit-inline-flex; 
  
-}
+}*/
 .col
 {
-    margin: 5px;
-    padding: 2px;
+    margin: 3px;
+    padding: 1px;
     color: rgb(84, 5, 5);
 
 }
